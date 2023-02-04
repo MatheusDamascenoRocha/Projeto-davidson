@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background: radial-gradient(#4792d4,#004792);
+    font-family: 'Josefin Sans', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: #fff;
+    font-size: 5.27vh;
+    margin-bottom: 2.11vh;
+}
+.card{
+    background: #0d68b8;
+    height: 60%;
+    width: 30%;
+    border-radius: 5.27vh;
+    box-shadow: 0vh 0vh 5.27vh 1.26vh rgba(0, 0, 0, 0.137);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cadastro{
+    padding: 2.32vh;
+    width: 87%;
+    border-radius: 1.055vh;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background: #4792d4;
+    color: #fff;
+    box-shadow: 0vh 0vh 1.055vh 0.21vh rgba(0, 0, 0, 0.11);
+    margin: 1.9vh;
+}
+.cadastro::placeholder{
+    color: #95c2e9;
+}
+    button {
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        line-height: 1;
+        padding: 1rem;
+        border: none;
+        cursor: pointer;
+        margin-left: 7.7em;
+        transition: all 0.18s ease;
+        --color1: #000000;
+        --color2: #05050f;
+        --bs1: -2px -2px 0 2px var(--color1);
+        --bs2: 0 0 0 4px var(--color2);
+        --bs3: 0 0 2px 7px rgba(0, 0, 0, 0.05);
+        box-shadow: var(--bs1), var(--bs2), var(--bs3);
+    }
+    
+    .button:hover,
+    button:hover {
+        --color1: #000000;
+        --color2: #030206;
+        transform: scale(1.01);
+        background: rgba(255, 255, 255, 0.05);
+    }
+
