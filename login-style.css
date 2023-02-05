@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background: linear-gradient(120deg,#0d68b8 20%,#052e53 90%);
+    background: linear-gradient(#004792 20%,#04274d 73%,#011020);
     font-family: 'Josefin Sans', sans-serif;
 }
 main{
@@ -37,6 +37,7 @@ main{
     align-items: center;
 }
 .card{
+    opacity: 0.8;
     height: 43.5%;
     width: 58%;
     background: #0d68b8;
@@ -69,7 +70,7 @@ main{
     border: none;
     background: #4792d4;
     color: #fff;
-    box-shadow: 0vh 0vh 1.055vh 0.21vh rgba(0, 0, 0, 0.363);
+    box-shadow:0vh 0vh 1.055vh 0.21vh rgba(0, 0, 0, 0.137);
     margin-bottom: 1.055vh;
 }
 .login::placeholder{
@@ -83,7 +84,7 @@ main{
     padding: 1.37vh;
     width: 20%;
     border-radius: 3.16vh;
-    box-shadow: 0vh 0vh 1.055vh 0.21vh rgba(0, 0, 0, 0.466);
+    box-shadow: 0vh 0vh 1.055vh 0.21vh rgba(0, 0, 0, 0.247);
     border: none;
     margin-top: 1.055vh;
     color: #fff;
