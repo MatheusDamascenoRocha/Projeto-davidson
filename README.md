@@ -1,2 +1,2 @@
 # Projeto-davidson
- Projeto da escola
+ Projeto da escola tecnica
