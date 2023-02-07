@@ -20,24 +20,41 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
+  width: 600px;
+  height: 450px;
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(244, 244, 244, 0.6);
+  box-shadow: 0 0px 40px 10px #05326669;
   border-radius: 10px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
 }
-
+form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputs{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
 .caixa__login h2 {
-  margin: 0 0 30px;
   padding: 0;
   color: #fff;
   text-align: center;
+  font-size: 40px;
 }
 
 .caixa__login .caixa__login-input {
   position: relative;
+  width: 100%;
 }
 
 .caixa__login .caixa__login-input input {
@@ -56,7 +73,7 @@ body {
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   pointer-events: none;
   transition: 0.5s;
@@ -164,6 +181,31 @@ body {
   background: linear-gradient(360deg, transparent, #8b80f9);
   animation: animacaoBotao4 1s linear infinite;
   animation-delay: 0.75s;
+}
+button {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  background-color: #00000030;
+  padding: 1rem;
+  width: 100px;
+  height: 65px;
+  border: 3px solid rgba(0, 0, 0, 0.068);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  --color1: #000000;
+  --color2: #05050f;
+  --bs1: -2px -2px 0 2px var(--color1);
+  --bs2: 0 0 0 4px var(--color2);
+  box-shadow: var(--bs1), var(--bs2), var(--bs3);
+}
+
+.button:hover,
+button:hover {
+  --color1: #000000;
+  --color2: #030206;
+  background: rgba(255, 255, 255, 0.05);
 }
 
 @keyframes animacaoBotao4 {
