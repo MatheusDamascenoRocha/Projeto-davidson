@@ -217,3 +217,73 @@ button:hover {
     bottom: 100%;
   }
 }
+@media (max-width:606px), (max-height:450px){
+  .caixa__login{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 300px;
+      height: 300px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+      box-shadow: 0 0px 40px 10px #05326669;
+      border-radius: 10px;
+    }
+  .caixa__login h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      font-size: 25px;
+    }
+  .caixa__login .caixa__login-input {
+      position: relative;
+    }
+  .caixa__login .caixa__login-input input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+    }
+  .caixa__login .caixa__login-input label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      pointer-events: none;
+      transition: 0.5s;
+    } 
+  button {
+      font-size: 0.7rem;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      line-height: 1;
+      background-color: #00000030;
+      padding: 0.7rem;
+      width: 80px;
+      height: 40px;
+      border: 3px solid rgba(0, 0, 0, 0.068);
+      cursor: pointer;
+      transition: all 0.18s ease;
+      --color1: #000000;
+      --color2: #05050f;
+      --bs1: -2px -2px 0 2px var(--color1);
+      --bs2: 0 0 0 4px var(--color2);
+      box-shadow: var(--bs1), var(--bs2), var(--bs3);
+  }  
+  button:hover {
+    --color1: #000000;
+    --color2: #030206;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+}
