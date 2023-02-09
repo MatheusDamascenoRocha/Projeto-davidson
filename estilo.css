@@ -13,9 +13,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: Verdana;
+  display: flex;
+  flex-direction: column;
   
 }
-
+main{
+  width: 100%;
+  height: 96.94vh;
+}
 .caixa__login {
   position: absolute;
   top: 50%;
@@ -87,41 +92,13 @@ form{
   font-size: 12px;
 }
 
-.caixa__login form a {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #8b80f9;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-top: 40px;
-  letter-spacing: 4px;
-}
+  .link-cadastrar{
 
-.caixa__login a:hover {
-  background: #8b80f9;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #8b80f9, 0 0 25px #8b80f9, 0 0 50px #8b80f9,
-    0 0 100px #8b80f9;
-}
+    color: #1eb9e4;
+    text-decoration: none;
+    margin-left: 5px;
+  }
 
-.caixa__login a span {
-  position: absolute;
-  display: block;
-}
-
-.caixa__login a span:nth-child(1) {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #8b80f9);
-  animation: animacaoBotao1 1s linear infinite;
-}
 
 @keyframes animacaoBotao1 {
   0% {
@@ -133,15 +110,7 @@ form{
   }
 }
 
-.caixa__login a span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #8b80f9);
-  animation: animacaoBotao2 1s linear infinite;
-  animation-delay: 0.25s;
-}
+
 
 @keyframes animacaoBotao2 {
   0% {
@@ -153,15 +122,7 @@ form{
   }
 }
 
-.caixa__login a span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #8b80f9);
-  animation: animacaoBotao3 1s linear infinite;
-  animation-delay: 0.5s;
-}
+
 
 @keyframes animacaoBotao3 {
   0% {
@@ -173,15 +134,6 @@ form{
   }
 }
 
-.caixa__login a span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #8b80f9);
-  animation: animacaoBotao4 1s linear infinite;
-  animation-delay: 0.75s;
-}
 button {
   font-size: 1.3rem;
   font-weight: 500;
@@ -223,7 +175,7 @@ button:hover {
       top: 50%;
       left: 50%;
       width: 300px;
-      height: 300px;
+      height: 330px;
       padding: 40px;
       transform: translate(-50%, -50%);
       background: rgba(0, 0, 0, 0.5);
@@ -285,5 +237,15 @@ button:hover {
     --color2: #030206;
     background: rgba(255, 255, 255, 0.05);
 }
+h3, .link-cadastrar{
+  font-size: 12px;
+}
 
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.06vh;
 }
