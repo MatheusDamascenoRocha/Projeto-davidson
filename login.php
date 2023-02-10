@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     <style>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
       
-                    <button>Login</button>
+                    <button>Logar</button>
                    <h3 style="color: white; margin-top: 2rem;">Não possui conta?   <a href="cadastro.php" class="link-cadastrar">Criar</a></h3>
             </form>
         </div>

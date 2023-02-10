@@ -7,21 +7,46 @@
     <link rel="stylesheet" href="cadastro-style.css">
     <link rel="icon" href="img/urano.png" type="image/png">
     <title>Cadastro</title>
+    <style>
+        body{
+            background-image: radial-gradient( #053a76,#031C38); 
+        }
+    </style>
 </head>
 <body>
-    <form action="recebe.php" method="post">
-      <main>
-          <h1 class="titulo"><em>Se cadastre no nosso site!</em></h1>
-        <div class="card">
-            <input type="text" placeholder="User" class="cadastro" name="usuario"><br>
-            <input type="password" placeholder="Password" class="cadastro" name="senha"><br>
-            <input type="email" placeholder="E-mail" class="cadastro" name="email"><br>
-            <input type="text" placeholder="CPF" class="cadastro" name="cpf" \ pattern="d{3}\.?d{3}\.?d{3}-?\d{2}" \>
-              <div class="botoes">
-                <button class="botao">Cadastrar-se</button>
-            </div>
+<main>
+      <div class="caixa__login">
+            <h2>Cadastro</h2>
+            <form>
+                <div class="inputs">
+                    <div class="caixa__login-input">
+                        <input type="text" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
+onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
+                        <label>User</label>
+                    </div>
+                    <div class="caixa__login-input">
+                        <input type="password" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
+onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
+                        <label>Senha</label>
+                    </div>
+                    <div class="caixa__login-input">
+                        <input type="email" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: algumacoisa@gmail.com':null);"
+onblur="javascript:(this.placeholder=='Ex: algumacoisa@gmail.com'?this.placeholder = '':null);" required />
+                        <label>Email</label>
+                    </div>
+                    <div class="caixa__login-input">
+                        <input type="text" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
+onblur="javascript:(this.placeholder=='Ex: 123.456.789-10'?this.placeholder = '':null);" required />
+                        <label>CPF</label>
+                    </div>
+                </div>
+      
+                    <button>Cadastrar</button>
+            </form>
         </div>
-      </main>
-    </form>
+  </main>
+  <footer>
+    <h3 style="color:rgba(255,255,255,0.50)">Copyright &copy; - Up-Driver - Todos os Direitos Reservados</h3>
+  </footer> 
 </body>
 </html>
