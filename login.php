@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="img/icon.ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/engrenagem.png" type="image/x-icon">
     <style>
         body{
             background-image: radial-gradient( #053a76,#031C38); 
@@ -18,14 +18,16 @@
   <main>
       <div class="caixa__login">
             <h2>Login</h2>
-            <form>
+            <form action="recebe-login.php" method="post">
                 <div class="inputs">
-                    <div class="caixa__login-input">
-                        <input type="text" required />
+                <div class="caixa__login-input">
+                        <input type="text" name="usuario" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
+onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
                         <label>User</label>
                     </div>
                     <div class="caixa__login-input">
-                        <input type="password" required />
+                        <input type="password" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
+onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
                         <label>Senha</label>
                     </div>
                 </div>

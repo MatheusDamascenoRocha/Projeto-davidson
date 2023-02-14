@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro-style.css">
-    <link rel="icon" href="img/icon.ico.png" type="image/png">
+    <link rel="shortcut icon" href="img/engrenagem.png" type="image/x-icon">
     <title>Cadastro</title>
     <style>
         body{
@@ -17,7 +17,7 @@
 <main>
       <div class="caixa__login">
             <h2>Cadastro</h2>
-            <form>
+            <form action="recebe-cadastro.php" method="post">
                 <div class="inputs">
                     <div class="caixa__login-input">
                         <input type="text" name="usuario" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
