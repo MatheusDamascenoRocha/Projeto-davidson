@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro-style.css">
-    <link rel="icon" href="img/urano.png" type="image/png">
+    <link rel="icon" href="img/icon.ico.png" type="image/png">
     <title>Cadastro</title>
     <style>
         body{
@@ -20,22 +20,22 @@
             <form>
                 <div class="inputs">
                     <div class="caixa__login-input">
-                        <input type="text" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
+                        <input type="text" name="usuario" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
 onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
                         <label>User</label>
                     </div>
                     <div class="caixa__login-input">
-                        <input type="password" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
+                        <input type="password" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
 onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
                         <label>Senha</label>
                     </div>
                     <div class="caixa__login-input">
-                        <input type="email" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: algumacoisa@gmail.com':null);"
+                        <input type="email" name="email" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: algumacoisa@gmail.com':null);"
 onblur="javascript:(this.placeholder=='Ex: algumacoisa@gmail.com'?this.placeholder = '':null);" required />
                         <label>Email</label>
                     </div>
                     <div class="caixa__login-input">
-                        <input type="text" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
+                        <input type="text" name="cpf" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
 onblur="javascript:(this.placeholder=='Ex: 123.456.789-10'?this.placeholder = '':null);" required />
                         <label>CPF</label>
                     </div>
