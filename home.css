@@ -15,23 +15,28 @@ header{
     background-color: #031C38;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 0.411);
     font-family: "Poppins", sans-serif;
+    position: fixed;
+    z-index: 1;
 }
 .header-logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
 }
 .header-logo > h1{
     color: aliceblue;
     font-size: 3rem;
 }
 .logo {
-    width: 4vw;
-    height: 6vh;
-    margin-right: 10px;
+    width: 6vw;
+    height: 8vh;
+}
+.navbar{
+    margin-right: 50px;
 }
 .navbar > a{
     color: aliceblue;
@@ -43,4 +48,8 @@ header{
     color: #031C38;
     background-color: aliceblue;
     border-radius: 5px;
+}
+main{
+    margin-top: 83px;
+    position: absolute;
 }

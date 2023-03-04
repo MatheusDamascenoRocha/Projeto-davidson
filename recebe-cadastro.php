@@ -19,7 +19,7 @@
     <?php 
      require './conexao_login.php';
       $usuario=$_POST['usuario'];
-      $senha=$_POST['senha'];
+      $senha=password_hash($_POST['senha'], PASSWORD_DEFAULT);
       $email=$_POST['email'];
       $cpf=$_POST['cpf'];
 

@@ -21,9 +21,11 @@
       $usuario=$_POST['usuario'];
       $senha=$_POST['senha'];
 
-      $resultado = $mysqli -> query("SELECT * FROM login WHERE usuario='$usuario' AND senha='$senha'");
+      $sql_code = "SELECT * FROM login where usuario = '$usuario' LIMIT 1";
+      $sql_exec = $mysqli-> query($sql_code) or die($msqli->error);
 
-      if(mysqli_num_rows($resultado)>0){
+      $resultado = $sql_exec->fetch_assoc();
+      if(password_verify($senha,$resultado['senha'])){
            session_start();
            $_SESSION['usuario'] =$_POST['usuario']; 
            $_SESSION['senha'] =$_POST['senha']; 
