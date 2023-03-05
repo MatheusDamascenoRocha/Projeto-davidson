@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -27,6 +28,7 @@
       $resultado = $sql_exec->fetch_assoc();
       if(password_verify($senha,$resultado['senha'])){
            session_start();
+           $_SESSION['logado'] = true;
            $_SESSION['usuario'] =$_POST['usuario']; 
            $_SESSION['senha'] =$_POST['senha']; 
            echo"<script>ok()</script>";

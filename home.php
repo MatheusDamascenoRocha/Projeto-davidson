@@ -1,3 +1,14 @@
+<?php
+session_start();
+if(!isset($_SESSION['logado'])){
+  header("location:login.php");
+  session_destroy();
+}
+if (isset($_GET['sair'])) {
+  header('location:login.php');
+  session_destroy();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +26,7 @@
         <h1><em>Up-Driver</em></h1>
       </div>
       <div class="navbar">
+        <a href="?sair">Sair</a>
         <a href="home.php">Home</a>
         <a href="">Compras</a>
         <a href="">Serviços</a>
