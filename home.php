@@ -8,6 +8,18 @@ if (isset($_GET['sair'])) {
   header('location:login.php');
   session_destroy();
 }
+if(isset($_SESSION['hora_logada'])){
+  $tempo = time() - $_SESSION['hora_logada'];
+}
+if ($tempo > $_SESSION['limite']) {
+  unset($_SESSION['logado']);
+  unset($_SESSION['hora_logada']);
+  unset($_SESSION['limite']);
+  session_destroy();
+  header("location:login.php");
+}else {
+  $_SESSION['hora_logada'] = time();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

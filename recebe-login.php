@@ -28,9 +28,9 @@
       $resultado = $sql_exec->fetch_assoc();
       if(password_verify($senha,$resultado['senha'])){
            session_start();
+           $_SESSION['limite']=20 * 60;
+           $_SESSION['hora_logada']= time();
            $_SESSION['logado'] = true;
-           $_SESSION['usuario'] =$_POST['usuario']; 
-           $_SESSION['senha'] =$_POST['senha']; 
            echo"<script>ok()</script>";
       }else{
            echo"<script>error()</script>";
