@@ -39,7 +39,7 @@ main{
   width: 50vw;
 }
 .sobre-nos{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0);
   width: 450px;
   height: 480px;
   padding: 30px;
@@ -57,13 +57,14 @@ main{
 .sobre-nos > p{
   color: #fff;
   text-align: justify;
+  font-size: 15.3px;
 }
 .caixa__login {
   position: absolute;
   width: 600px;
   height: 450px;
   padding: 40px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
   box-sizing: border-box;
   box-shadow: 0 0px 40px 10px #05326669;
   border-radius: 10px;
