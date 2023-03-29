@@ -22,14 +22,14 @@ session_start();
   </head>
 <body>
   <div class="main">
-      <div class="area-1">
+  <!--    
         <div class="conteudo-l">
           <div class="sobre-nos">
             <h2>Sobre nós</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam enim facere pariatur consequatur voluptas temporibus atque quibusdam quaerat laborum sequi doloribus possimus dicta quo soluta, illum inventore fuga! Porro, magni?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit aliquam autem saepe dolorem. Molestias ipsam nulla illo, ullam, magni nihil architecto labore dolores quaerat eveniet accusantium reiciendis quis. Quas, dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ex temporibus, harum adipisci fuga beatae perferendis earum obcaecati, dolorem pariatur amet sapiente blanditiis! Vitae veniam, vel nemo porro nulla itaque.</p>
           </div>
-        </div>
-        <div class="conteudo-r">
+        </div> -->
+        <div class="area-1">
           <div class="caixa__login">
                 <h2>Login</h2>
                 <form action="recebe-login.php" method="post">
@@ -51,20 +51,18 @@ session_start();
                 </form>
             </div>
         </div>
-      </div>
   </div>
-  <div class="secundario">
     <div class="container">
       <div class="area-2">
-        <div class="card">
+        <div class="card" onmouseover="this.<img src='img/estrela-escura.png>'">
           <img src="img/estrela.png"><br>
           <span class="titulo">Garantia e Qualidade</span>
           <P>Oferecemos garantia e procedência para peças e serviços.</P>
     </div>
         <div class="card">
-          <img src="img/ferramentas.png"><br>
+          <img src="img/ferramenta.png"><br>
           <span class="titulo">Equipamentos</span>
-          <P>De última geração e atualizados, operados por equipe altamente capacitada e certificada.</P>
+          <P>De última geração e atualizados, operados <br>por equipe altamente capacitada e certificada.</P>
     </div>
         <div class="card">
           <img src="img/rigging.png"><br>
@@ -78,6 +76,5 @@ session_start();
         </div>
       </div>
     </div>
-  </div>
 </body>
 </html>
