@@ -1,1 +1,0 @@
-window.sr = Scrollreveal({reset:true})

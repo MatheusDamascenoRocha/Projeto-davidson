@@ -40,13 +40,13 @@ body {
   border-radius: 10px;
   text-align: start;
 }
-.sobre-nos > .area-3 > h2{
+.area-3 >.sobre-nos > h2{
   padding: 0;
   color: #fff;
   text-align: center;
   font-size: 30px;
 }
-.sobre-nos >.area-3> p{
+.area-3>.sobre-nos > p{
   color: #fff;
   text-align: justify;
   font-size: 18px;
@@ -339,3 +339,23 @@ footer{
       height: 2.3vw;
       margin: 10px;
      }
+[data-anime]{
+  opacity: 0;
+  transition: 0.3s;
+}
+[data-anime="primary"]{
+  opacity: 0;
+  transition: 0.5s;
+}
+[data-anime="right"]{
+  transform: translate3d(50px,0px,0px);
+  transition: 0.5s;
+}
+[data-anime="left"]{
+  transform: translate3d(-50px,0px,0px);
+  transition: 0.5s;
+}
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px,0px,0px);
+}
