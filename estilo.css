@@ -30,40 +30,26 @@ body {
   justify-content: center;
   align-items: center;
 }
-.conteudo-l{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 50vw;
-}
-.conteudo-r{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 50vw;
-}
 .sobre-nos{
   background: #031C38;
   width: 450px;
   height: 480px;
   padding: 30px;
-  box-shadow: 0 0px 40px 10px #000000b4;
+  box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.404);
   box-sizing: border-box;
   border-radius: 10px;
   text-align: start;
 }
-.sobre-nos > h2{
+.sobre-nos > .area-3 > h2{
   padding: 0;
   color: #fff;
   text-align: center;
   font-size: 30px;
 }
-.sobre-nos > p{
+.sobre-nos >.area-3> p{
   color: #fff;
   text-align: justify;
-  font-size: 15.3px;
+  font-size: 18px;
 }
 .caixa__login {
   position: absolute;
@@ -303,9 +289,53 @@ footer{
 .card > .xicara-texto{
   font-size: 14px;
 }
-.card:hover{
-  transition: 0.5s;
-  color: #031C38;
-  background-color: #fff;
-  
+.info{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.informacoes{
+      width: 360px;
+      box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.301);
+      border-radius: 20px;
+      background-color: #031C38;
+      color: #fff;
+     }
+     .img-card{
+      height: 1.3vw;
+      margin-right: 10px;
+      margin-left: 10px;
+     }
+     .sub-card{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-top: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+     }
+     .sub-card > p{
+      font-size: 0.8vw;
+      margin:4px;
+     }
+     .link-card{
+      color: #1eb9e4;
+      text-decoration: none;
+     }
+     .informacoes > span{
+      color: rgb(117, 116, 116);
+     }
+     .numero{
+      color: rgb(117, 116, 116);
+      font-size: 1.3vw;
+     }
+     .redes-sociais{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+     }
+     .img-redes{
+      height: 2.3vw;
+      margin: 10px;
+     }
