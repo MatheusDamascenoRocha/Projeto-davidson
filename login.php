@@ -12,7 +12,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="shortcut icon" href="img/engrenagem.png" type="image/x-icon">
     <style>
         .main{
@@ -22,19 +22,22 @@ session_start();
   </head>
 <body>
   <div class="main">
-        <div class="area-1" data-anime="primary">
+
+
+    <!--LOGIN!!!!!!!!!!!!!!! -->
+        <div class="area-1">
           <div class="caixa__login">
                 <h2>Login</h2>
                 <form action="recebe-login.php" method="post">
                     <div class="inputs">
                     <div class="caixa__login-input">
                             <input type="text" name="usuario" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
-          onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
+                            onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
                             <label>User</label>
                         </div>
                         <div class="caixa__login-input">
                             <input type="password" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
-          onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
+                            onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
                             <label>Senha</label>
                         </div>
                     </div>
@@ -45,6 +48,9 @@ session_start();
             </div>
         </div>
   </div>
+
+
+  <!--CONTAINER DE HABILIDADES!!!!!!!!! -->
     <div class="container">
       <div class="area-2" data-anime>
         <div class="card" onmouseover="this.<img src='img/estrela-escura.png>'">
@@ -69,8 +75,31 @@ session_start();
         </div>
       </div>
     </div>
+
+
+    <!--SLIDER MARCAS!!!!!!!!!!!!!!!!-->
+    <div class="marca">
+      <h1>Marcas</h1>
+      <h3>Trabalhamos com multimarcas.</h3>
+      <div id="slider">
+        <img src="img/citroen.jpg" class="carro">
+        <img src="img/fiat.jpg" class="carro">
+        <img src="img/ford.jpg" class="carro">
+        <img src="img/honda.jpg" class="carro">
+        <img src="img/hyundai.jpg" class="carro">
+        <img src="img/mitsubishi.jpg" class="carro">
+        <img src="img/nissan.jpg" class="carro">
+        <img src="img/peugeot.jpg" class="carro">
+        <img src="img/suzuki.jpg" class="carro">
+        <img src="img/volkswagen.jpg" class="carro">
+
+      </div>
+    </div>
     <div class="info">
-          <div class="area-3" data-anime="left">
+
+
+      <!--CARD QUEM SOMOS NOS!!!!!!!!!! -->
+          <div class="area-4" data-anime="left">
             <div class="sobre-nos">
               <h2>Quem somos</h2>
               <p>A Oficina Up-Driver completou 49 anos de existência.
@@ -80,7 +109,10 @@ session_start();
             Constantemente, nossos colaboradores passam por treinamentos, participam de conferências, palestras, cursos de Ensino à Distância (EAD) ou presenciais, entre outras formas de desenvolvimento pessoal e profissional.</p>
             </div>
           </div>
-          <div class="area-3" data-anime="right">
+
+
+      <!--CARD INFORMAÇÕES!!!!!!!!!!!!!!! -->
+          <div class="area-4" data-anime="right">
               <div class="informacoes">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3849763416365!2d-38.51790518469797!3d-3.725954144204737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1674655646658!5m2!1spt-BR!2sbr" width="360" height="300" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   <div class="sub-card">
@@ -107,6 +139,13 @@ session_start();
         </div>
       </div>
     </div>
-<script src="animacao.js"></script>
+
+    <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
+    <footer>
+      <p style="font-size:23px; font-weight:500;">Todos os direitos reservados &copy Up-Driver</p>
+    </footer>
+
+    <!--SCRIPTS!!!!!-->
+<script src="js/animacao.js"></script>
 </body>
 </html>
