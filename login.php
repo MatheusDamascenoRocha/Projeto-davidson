@@ -13,6 +13,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     <link rel="shortcut icon" href="img/engrenagem.png" type="image/x-icon">
     <style>
         .main{
@@ -78,27 +79,106 @@ session_start();
 
 
     <!--SLIDER MARCAS!!!!!!!!!!!!!!!!-->
-    <div class="marca">
+    <div class="carrossel" data-anime>
       <h1>Marcas</h1>
-      <h3>Trabalhamos com multimarcas.</h3>
-      <div id="slider">
-        <img src="img/citroen.jpg" class="carro">
-        <img src="img/fiat.jpg" class="carro">
-        <img src="img/ford.jpg" class="carro">
-        <img src="img/honda.jpg" class="carro">
-        <img src="img/hyundai.jpg" class="carro">
-        <img src="img/mitsubishi.jpg" class="carro">
-        <img src="img/nissan.jpg" class="carro">
-        <img src="img/peugeot.jpg" class="carro">
-        <img src="img/suzuki.jpg" class="carro">
-        <img src="img/volkswagen.jpg" class="carro">
-
-      </div>
+      <h3>Trabalhamos com multimarcas</h3>
+      <div class="slider">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next image">▶</button>
+        <div class="marcas-wrapper">
+            <div class="marcas">
+                <img src="img/citroen.png" 
+                class="item">
+                <img src="img/fiat.png"
+                class="item">
+                <img src="img/ford.png"
+                class="item current-item">
+                <img src="img/honda.png"
+                class="item">
+                <img src="img/hyundai.png"
+                class="item">
+                <img src="img/mitsubishi.png"
+                class="item">
+                <img src="img/nissan.png"
+                class="item">
+                <img src="img/peugeot.png"
+                class="item">
+                <img src="img/suzuki.png"
+                class="item">
+                <img src="img/volkswagen.png"
+                class="item">
+                <img src="img/citroen.png" 
+                class="item">
+                <img src="img/fiat.png"
+                class="item">
+                <img src="img/ford.png"
+                class="item">
+                <img src="img/honda.png"
+                class="item">
+                <img src="img/hyundai.png"
+                class="item">
+                <img src="img/mitsubishi.png"
+                class="item">
+                <img src="img/nissan.png"
+                class="item">
+                <img src="img/peugeot.png"
+                class="item">
+                <img src="img/suzuki.png"
+                class="item">
+                <img src="img/volkswagen.png"
+                class="item">
+                <img src="img/citroen.png" 
+                class="item">
+                <img src="img/fiat.png"
+                class="item">
+                <img src="img/ford.png"
+                class="item">
+                <img src="img/honda.png"
+                class="item">
+                <img src="img/hyundai.png"
+                class="item">
+                <img src="img/mitsubishi.png"
+                class="item">
+                <img src="img/nissan.png"
+                class="item">
+                <img src="img/peugeot.png"
+                class="item">
+                <img src="img/suzuki.png"
+                class="item">
+                <img src="img/volkswagen.png"
+                class="item">
+                <img src="img/citroen.png" 
+                class="item">
+                <img src="img/fiat.png"
+                class="item">
+                <img src="img/ford.png"
+                class="item">
+                <img src="img/honda.png"
+                class="item">
+                <img src="img/hyundai.png"
+                class="item">
+                <img src="img/mitsubishi.png"
+                class="item">
+                <img src="img/nissan.png"
+                class="item">
+                <img src="img/peugeot.png"
+                class="item">
+                <img src="img/suzuki.png"
+                class="item">
+                <img src="img/volkswagen.png"
+                class="item">
+            </div>
+        </div>
     </div>
-    <div class="info">
+    </div>
+    <!--ACABA SLIDER MARCAS!!!!!!!!!!!!!!!!-->
+
+
+    
 
 
       <!--CARD QUEM SOMOS NOS!!!!!!!!!! -->
+      <div class="info">
           <div class="area-4" data-anime="left">
             <div class="sobre-nos">
               <h2>Quem somos</h2>
@@ -109,7 +189,7 @@ session_start();
             Constantemente, nossos colaboradores passam por treinamentos, participam de conferências, palestras, cursos de Ensino à Distância (EAD) ou presenciais, entre outras formas de desenvolvimento pessoal e profissional.</p>
             </div>
           </div>
-
+      <!--ACABA CARD QUEM SOMOS NOS!!!!!!!!!! -->
 
       <!--CARD INFORMAÇÕES!!!!!!!!!!!!!!! -->
           <div class="area-4" data-anime="right">
@@ -139,6 +219,8 @@ session_start();
         </div>
       </div>
     </div>
+      <!--ACABA CARD INFORMAÇÕES!!!!!!!!!!!!!!! -->
+
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
     <footer>
@@ -146,6 +228,7 @@ session_start();
     </footer>
 
     <!--SCRIPTS!!!!!-->
-<script src="js/animacao.js"></script>
+<script src="js/animacao.js"></script> <!--ANIMAÇÃO SCROLL-->
+<script src="js/carrossel.js"></script> <!--SLIDER-->
 </body>
 </html>

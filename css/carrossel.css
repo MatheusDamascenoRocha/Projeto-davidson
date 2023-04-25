@@ -1,0 +1,55 @@
+.slider{
+    position: relative;
+    padding: 15px;
+    max-width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marcas-wrapper{
+    overflow:hidden
+}
+.marcas{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.item{
+    height: 140px;
+    width: 140px;
+    flex-shrink: 0;
+    opacity: 1;
+    transition: all 600ms ease-in-out;
+}
+.arrow-left,.arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50;
+    bottom: 0;
+    font-size: 20px;
+    height: 200px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    line-height: 250px;
+    background: linear-gradient(to left,transparent 0%, #031C38 200%);
+    opacity: 0.3;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right{
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, #031C38 200%);
+}
+
+.arrow-left:hover,.arrow-right:hover{
+    opacity: 1;
+}
