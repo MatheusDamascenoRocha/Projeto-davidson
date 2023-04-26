@@ -161,7 +161,7 @@ form{
   }
 }
 
-button {
+.logar {
   font-size: 1.3rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -176,8 +176,7 @@ button {
   cursor: pointer;
   transition: all 0.18s ease;
 }
-.button:hover,
-button:hover {
+.logar:hover {
   --color1: #000000;
   --color2: #030206;
   background: rgba(255, 255, 255, 0.05);
@@ -366,7 +365,7 @@ footer{
   align-items: center;
   width: 100%;
   height: 350px;
-  margin-top: 50px;
+  margin-top: 40px;
   }
 .carrossel > h1{
   font-size: 50px;

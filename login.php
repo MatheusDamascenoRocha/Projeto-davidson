@@ -43,7 +43,7 @@ session_start();
                         </div>
                     </div>
         
-                        <button>Logar</button>
+                        <button class="logar">Logar</button>
                        <h3 style="color: white; margin-top: 2rem;">Não possui conta?   <a href="cadastro.php" class="link-cadastrar">Criar</a></h3>
                 </form>
             </div>
@@ -88,11 +88,11 @@ session_start();
         <div class="marcas-wrapper">
             <div class="marcas">
                 <img src="img/citroen.png" 
-                class="item">
+                class="item current-item">
                 <img src="img/fiat.png"
                 class="item">
                 <img src="img/ford.png"
-                class="item current-item">
+                class="item">
                 <img src="img/honda.png"
                 class="item">
                 <img src="img/hyundai.png"
