@@ -76,6 +76,25 @@ session_start();
         </div>
       </div>
     </div>
+  <!--ACABACONTAINER DE HABILIDADES!!!!!!!!! -->
+
+
+  <div class="area-3">
+  <div  class="titulo-area-3" data-anime>
+        <h1><i>Sobre nos</i></h1>
+      </div>
+      <div class="conteudo-sobre-nos">
+        <div class="sobre-nos" data-anime>
+                    <h2>Quem somos</h2>
+                    <p>A Oficina Up-Driver completou 49 anos de existência.
+        
+                  Desde 1973, trabalhamos com profissionais capacitados para formar uma equipe qualificada e responsável. Dessa forma, não só garantimos a máxima segurança do seu veículo como também os melhores serviços para ele.
+        
+                  Constantemente, nossos colaboradores passam por treinamentos, participam de conferências, palestras, cursos de Ensino à Distância (EAD) ou presenciais, entre outras formas de desenvolvimento pessoal e profissional.</p>
+        </div>
+        <img src="img/mecanicos.jpg" class="img-sobre-nos" data-anime>
+      </div>
+  </div>
 
 
     <!--SLIDER MARCAS!!!!!!!!!!!!!!!!-->
@@ -107,66 +126,6 @@ session_start();
                 class="item">
                 <img src="img/volkswagen.png"
                 class="item">
-                <img src="img/citroen.png" 
-                class="item">
-                <img src="img/fiat.png"
-                class="item">
-                <img src="img/ford.png"
-                class="item">
-                <img src="img/honda.png"
-                class="item">
-                <img src="img/hyundai.png"
-                class="item">
-                <img src="img/mitsubishi.png"
-                class="item">
-                <img src="img/nissan.png"
-                class="item">
-                <img src="img/peugeot.png"
-                class="item">
-                <img src="img/suzuki.png"
-                class="item">
-                <img src="img/volkswagen.png"
-                class="item">
-                <img src="img/citroen.png" 
-                class="item">
-                <img src="img/fiat.png"
-                class="item">
-                <img src="img/ford.png"
-                class="item">
-                <img src="img/honda.png"
-                class="item">
-                <img src="img/hyundai.png"
-                class="item">
-                <img src="img/mitsubishi.png"
-                class="item">
-                <img src="img/nissan.png"
-                class="item">
-                <img src="img/peugeot.png"
-                class="item">
-                <img src="img/suzuki.png"
-                class="item">
-                <img src="img/volkswagen.png"
-                class="item">
-                <img src="img/citroen.png" 
-                class="item">
-                <img src="img/fiat.png"
-                class="item">
-                <img src="img/ford.png"
-                class="item">
-                <img src="img/honda.png"
-                class="item">
-                <img src="img/hyundai.png"
-                class="item">
-                <img src="img/mitsubishi.png"
-                class="item">
-                <img src="img/nissan.png"
-                class="item">
-                <img src="img/peugeot.png"
-                class="item">
-                <img src="img/suzuki.png"
-                class="item">
-                <img src="img/volkswagen.png"
-                class="item">
             </div>
         </div>
     </div>
@@ -174,24 +133,7 @@ session_start();
     <!--ACABA SLIDER MARCAS!!!!!!!!!!!!!!!!-->
 
 
-    
-
-
-      <!--CARD QUEM SOMOS NOS!!!!!!!!!! -->
-      <div class="info">
-          <div class="area-4" data-anime="left">
-            <div class="sobre-nos">
-              <h2>Quem somos</h2>
-              <p>A Oficina Up-Driver completou 49 anos de existência.
-            
-            Desde 1973, trabalhamos com profissionais capacitados para formar uma equipe qualificada e responsável. Dessa forma, não só garantimos a máxima segurança do seu veículo como também os melhores serviços para ele.
-            
-            Constantemente, nossos colaboradores passam por treinamentos, participam de conferências, palestras, cursos de Ensino à Distância (EAD) ou presenciais, entre outras formas de desenvolvimento pessoal e profissional.</p>
-            </div>
-          </div>
-      <!--ACABA CARD QUEM SOMOS NOS!!!!!!!!!! -->
-
-      <!--CARD INFORMAÇÕES!!!!!!!!!!!!!!! -->
+    <!--  <div class="info">
           <div class="area-4" data-anime="right">
               <div class="informacoes">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3849763416365!2d-38.51790518469797!3d-3.725954144204737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1674655646658!5m2!1spt-BR!2sbr" width="360" height="300" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -218,8 +160,7 @@ session_start();
               </div>
         </div>
       </div>
-    </div>
-      <!--ACABA CARD INFORMAÇÕES!!!!!!!!!!!!!!! -->
+    </div>  -->
 
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
