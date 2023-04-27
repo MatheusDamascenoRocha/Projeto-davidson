@@ -84,6 +84,7 @@ session_start();
         <h1><i>Sobre nos</i></h1>
       </div>
       <div class="conteudo-sobre-nos">
+        <img src="img/hand.png" id="mao-ferramenta-esquerda" data-anime>
         <div class="sobre-nos" data-anime>
                     <h2>Quem somos</h2>
                     <p>A Oficina Up-Driver completou 49 anos de existência.
@@ -93,6 +94,7 @@ session_start();
                   Constantemente, nossos colaboradores passam por treinamentos, participam de conferências, palestras, cursos de Ensino à Distância (EAD) ou presenciais, entre outras formas de desenvolvimento pessoal e profissional.</p>
         </div>
         <img src="img/mecanicos.jpg" class="img-sobre-nos" data-anime>
+        <img src="img/hand.png" id="mao-ferramenta-direita" data-anime>
       </div>
   </div>
 

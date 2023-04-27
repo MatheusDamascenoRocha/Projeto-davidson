@@ -39,6 +39,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+#mao-ferramenta-esquerda{
+  height: 250px;
+  width: 200px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+#mao-ferramenta-direita{
+  height: 250px;
+  width: 200px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  transform:scaleX(-1);
+}
 .titulo-area-3{
   height: auto;
   width: auto;
