@@ -80,9 +80,6 @@ session_start();
 
 
   <div class="area-3">
-  <div  class="titulo-area-3" data-anime>
-        <h1><i>Sobre nos</i></h1>
-      </div>
       <div class="conteudo-sobre-nos">
         <img src="img/hand.png" id="mao-ferramenta-esquerda" data-anime>
         <div class="sobre-nos" data-anime>
@@ -167,7 +164,9 @@ session_start();
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
     <footer>
-      <p style="font-size:23px; font-weight:500;">Todos os direitos reservados &copy Up-Driver</p>
+      <div class="loc">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </footer>
 
     <!--SCRIPTS!!!!!-->
