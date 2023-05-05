@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   
 }
-.area-1{
+#area-1{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -30,7 +30,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.area-3{
+#area-3{
   width:100%;
   height: 320px;
   background-color: #064eab;
@@ -272,14 +272,6 @@ h3, .link-cadastrar{
 }
 
 }
-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-  background-color: #030206;
-}
 .container{
   width: 100%;
   height: 60vh;
@@ -310,7 +302,7 @@ footer{
   font-size: 16px;
   text-align: center;
 }
-.area-2{
+#area-2{
   width: 100%;
   height: 60vh;
   display: flex;
@@ -320,57 +312,7 @@ footer{
 .card > .xicara-texto{
   font-size: 14px;
 }
-.info{
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-.informacoes{
-      width: 360px;
-      box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.301);
-      border-radius: 20px;
-      background-color: #031C38;
-      color: #fff;
-     }
-     .img-card{
-      height: 1.3vw;
-      margin-right: 10px;
-      margin-left: 10px;
-     }
-     .sub-card{
-      display: flex;
-      justify-content: start;
-      align-items: center;
-      margin-top: 10px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-     }
-     .sub-card > p{
-      font-size: 0.8vw;
-      margin:4px;
-     }
-     .link-card{
-      color: #1eb9e4;
-      text-decoration: none;
-     }
-     .informacoes > span{
-      color: rgb(117, 116, 116);
-     }
-     .numero{
-      color: rgb(117, 116, 116);
-      font-size: 1.3vw;
-     }
-     .redes-sociais{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-     }
-     .img-redes{
-      height: 2.3vw;
-      margin: 10px;
-     }
-[data-anime]{
+     [data-anime]{
   opacity: 0;
   transition: 0.5s;
 }
@@ -405,4 +347,66 @@ footer{
 .carrossel > h3{
   font-size: 16px;
   color: #929191;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 450px;
+    background-color: #031C38;
+    color: #fff;
+  }
+.coluna{
+    margin-top: 20px;
+  }
+.coluna:not(:last-child){
+    margin-right: 50px;
+  }
+
+#linha-1{
+    border-color: #80c0f9;
+    margin-bottom: 20px;
+    background-color: #80c0f9;
+    width: 100px;
+    height: 2px;
+    border-radius: 5px;
+  }
+#linha-2{
+    border-color: #80c0f9;
+    margin-bottom: 20px;
+    background-color: #80c0f9;
+    width: 150px;
+    height: 2px;
+    border-radius: 5px;
+  }
+.contatos{
+    display: flex;
+    align-items: center;
+  }
+.contatos:not(:last-child){
+    margin-bottom: 15px;
+  }
+.contatos > img{
+    height: 50px;
+    margin-right: 10px;
+  }
+.coluna-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.redes-sociais{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+}
+.icone-redes{
+  height: 50px;
+}
+.redes-sociais>a:not(:last-child){
+  margin-right: 20px;
 }

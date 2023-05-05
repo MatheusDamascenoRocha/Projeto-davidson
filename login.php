@@ -26,7 +26,7 @@ session_start();
 
 
     <!--LOGIN!!!!!!!!!!!!!!! -->
-        <div class="area-1">
+        <div id="area-1">
           <div class="caixa__login">
                 <h2>Login</h2>
                 <form action="recebe-login.php" method="post">
@@ -53,7 +53,7 @@ session_start();
 
   <!--CONTAINER DE HABILIDADES!!!!!!!!! -->
     <div class="container">
-      <div class="area-2" data-anime>
+      <div id="area-2" data-anime>
         <div class="card" onmouseover="this.<img src='img/estrela-escura.png>'">
           <img src="img/estrela.png"><br>
           <span class="titulo">Garantia e Qualidade</span>
@@ -79,7 +79,7 @@ session_start();
   <!--ACABACONTAINER DE HABILIDADES!!!!!!!!! -->
 
 
-  <div class="area-3">
+  <div id="area-3">
       <div class="conteudo-sobre-nos">
         <img src="img/hand.png" id="mao-ferramenta-esquerda" data-anime>
         <div class="sobre-nos" data-anime>
@@ -164,9 +164,41 @@ session_start();
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
     <footer>
-      <div class="loc">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="coluna coluna-2">
+        <h2 class="titulo-footer"><i>Contato</i></h2>
+        <hr id="linha-1">
+        <div class="contatos">
+          <img src="img/loc.png">
+          <div class="txtContatos">
+            <h3>Vá para:</h3>
+            <p>Rua Nogueira Acioli, 234, Centro, Fortaleza-CE</p>
+          </div>
+        </div>
+        <div class="contatos">
+          <img src="img/telefone.png">
+          <div class="txtContatos">
+            <h3>Ligue para:</h3>
+            <p>(85) 9 98876-4948 <br>
+            (85) 9 99756-4948</p>
+          </div>
+        </div>
+        <div class="contatos">
+          <img src="img/email.png">
+          <div class="txtContatos">
+            <h3>Envie um email para:</h3>
+            <p>up_driver@gmail.com</p>
+          </div>
+        </div>
+        <div class="redes-sociais">
+            <a href="https://www.instagram.com/matheus_fjxj/"  target="_blank" ><img class="icone-redes" src="img/instagram.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=5585988719784&text=Ol%C3%A1%21+estou+na+oficina+Up-Driver+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer noopener"  ><img class="icone-redes" src="img/whatsapp.png"></a>
+          </div>
       </div>
+      </div>
+      <div class="coluna coluna-3">
+        <h2 class="titulo-footer"><i>Localização</i></h2>
+        <hr id="linha-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="320" height="300" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 
     <!--SCRIPTS!!!!!-->
