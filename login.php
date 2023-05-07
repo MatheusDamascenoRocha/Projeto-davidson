@@ -97,37 +97,39 @@ session_start();
 
 
     <!--SLIDER MARCAS!!!!!!!!!!!!!!!!-->
-    <div class="carrossel" data-anime>
-      <h1>Marcas</h1>
-      <h3>Trabalhamos com multimarcas</h3>
-      <div class="slider">
-        <button class="arrow-left control" aria-label="Previous image">◀</button>
-        <button class="arrow-right control" aria-label="Next image">▶</button>
-        <div class="marcas-wrapper">
-            <div class="marcas">
-                <img src="img/citroen.png" 
-                class="item current-item">
-                <img src="img/fiat.png"
-                class="item">
-                <img src="img/ford.png"
-                class="item">
-                <img src="img/honda.png"
-                class="item">
-                <img src="img/hyundai.png"
-                class="item">
-                <img src="img/mitsubishi.png"
-                class="item">
-                <img src="img/nissan.png"
-                class="item">
-                <img src="img/peugeot.png"
-                class="item">
-                <img src="img/suzuki.png"
-                class="item">
-                <img src="img/volkswagen.png"
-                class="item">
-            </div>
-        </div>
-    </div>
+    <div id="area-4">
+      <div class="carrossel" data-anime>
+        <h1>Marcas</h1>
+        <h3>Trabalhamos com multimarcas</h3>
+        <div class="slider">
+          <button class="arrow-left control" aria-label="Previous image">◀</button>
+          <button class="arrow-right control" aria-label="Next image">▶</button>
+          <div class="marcas-wrapper">
+              <div class="marcas">
+                  <img src="img/citroen.png"
+                  class="item current-item">
+                  <img src="img/fiat.png"
+                  class="item">
+                  <img src="img/ford.png"
+                  class="item">
+                  <img src="img/honda.png"
+                  class="item">
+                  <img src="img/hyundai.png"
+                  class="item">
+                  <img src="img/mitsubishi.png"
+                  class="item">
+                  <img src="img/nissan.png"
+                  class="item">
+                  <img src="img/peugeot.png"
+                  class="item">
+                  <img src="img/suzuki.png"
+                  class="item">
+                  <img src="img/volkswagen.png"
+                  class="item">
+              </div>
+          </div>
+      </div>
+      </div>
     </div>
     <!--ACABA SLIDER MARCAS!!!!!!!!!!!!!!!!-->
 
@@ -163,43 +165,68 @@ session_start();
 
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
-    <footer>
-      <div class="coluna coluna-2">
-        <h2 class="titulo-footer"><i>Contato</i></h2>
+    <footer id="area-5">
+      <div class="coluna coluna-1" data-anime>
+        <h2 class="titulo-footer"><i>Navegue</i></h2>
         <hr id="linha-1">
+        <ul type="none" class="lista">
+          <a href="login.php#area-1">
+            <li class="item-lista">Login</li>
+          </a>
+          <a href="login.php#area-2">
+            <li class="item-lista">Habilidades</li>
+          </a>
+          <a href="login.php#area-3">
+            <li class="item-lista">Quem somos</li>
+          </a>
+          <a href="login.php#area-4">
+            <li class="item-lista">Marcas</li>
+          </a>
+          <a href="login.php#area-5">
+            <li class="item-lista">Informações</li>
+          </a>
+        </ul>
+      </div>
+      <div class="coluna coluna-2" data-anime>
+        <h2 class="titulo-footer"><i>Contato</i></h2>
+        <hr id="linha-2">
         <div class="contatos">
           <img src="img/loc.png">
           <div class="txtContatos">
-            <h3>Vá para:</h3>
-            <p>Rua Nogueira Acioli, 234, Centro, Fortaleza-CE</p>
+                <h3>Vá para:</h3>
+                <p>Rua Nogueira Acioli, 234,<br> Centro, Fortaleza-CE</p>
+              </div>
+            </div>
+            <div class="contatos">
+              <img src="img/telefone.png">
+              <div class="txtContatos">
+                <h3>Ligue para:</h3>
+                <p>(85) 9 98876-4948 <br>
+                (85) 9 99756-4948</p>
+              </div>
+            </div>
+            <div class="contatos">
+              <img src="img/email.png">
+              <div class="txtContatos">
+                <h3>Envie um email para:</h3>
+                <p>up_driver@gmail.com</p>
+              </div>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/matheus_fjxj/"  target="_blank" ><img class="icone-redes" src="img/instagram.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=5585988719784&text=Ol%C3%A1%21+estou+na+oficina+Up-Driver+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer noopener"  ><img class="icone-redes" src="img/whatsapp.png"></a>
+              </div>
           </div>
         </div>
-        <div class="contatos">
-          <img src="img/telefone.png">
-          <div class="txtContatos">
-            <h3>Ligue para:</h3>
-            <p>(85) 9 98876-4948 <br>
-            (85) 9 99756-4948</p>
-          </div>
+        <div class="coluna coluna-3" data-anime>
+          <h2 class="titulo-footer"><i>Localização</i></h2>
+          <hr id="linha-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="320" height="300" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="contatos">
-          <img src="img/email.png">
-          <div class="txtContatos">
-            <h3>Envie um email para:</h3>
-            <p>up_driver@gmail.com</p>
-          </div>
+      </footer>
+      <div class="direitos-autorais">
+            <p>Copyright © 2023 - Up-Driver - Todos os Direitos Reservados</p>
         </div>
-        <div class="redes-sociais">
-            <a href="https://www.instagram.com/matheus_fjxj/"  target="_blank" ><img class="icone-redes" src="img/instagram.png"></a>
-            <a href="https://api.whatsapp.com/send?phone=5585988719784&text=Ol%C3%A1%21+estou+na+oficina+Up-Driver+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer noopener"  ><img class="icone-redes" src="img/whatsapp.png"></a>
-          </div>
-      </div>
-      </div>
-      <div class="coluna coluna-3">
-        <h2 class="titulo-footer"><i>Localização</i></h2>
-        <hr id="linha-2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="320" height="300" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </footer>
 
     <!--SCRIPTS!!!!!-->
 <script src="js/animacao.js"></script> <!--ANIMAÇÃO SCROLL-->
