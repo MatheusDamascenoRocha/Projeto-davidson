@@ -22,11 +22,25 @@ session_start();
     </style>
   </head>
 <body>
+<div id="area-1">
+<header>
+      <div class="header-logo">
+        <img src="img/logo.png" alt="logo" class="logo">
+        <h1><em>Up-Driver</em></h1>
+      </div>
+      <div class="navbar">
+        <a href="#area-1">Login</a>
+        <a href="#area-2">Habilidades</a>
+        <a href="#area-3">Quem somos</a>
+        <a href="#area-4">Marcas</a>
+        <a href="#area-5">Informações</a>
+      </div>
+    </header>
   <div class="main">
 
 
     <!--LOGIN!!!!!!!!!!!!!!! -->
-        <div id="area-1">
+        
           <div class="caixa__login">
                 <h2>Login</h2>
                 <form action="recebe-login.php" method="post">
