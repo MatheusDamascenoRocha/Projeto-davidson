@@ -145,37 +145,6 @@ session_start();
       </div>
       </div>
     </div>
-    <!--ACABA SLIDER MARCAS!!!!!!!!!!!!!!!!-->
-
-
-    <!--  <div class="info">
-          <div class="area-4" data-anime="right">
-              <div class="informacoes">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3849763416365!2d-38.51790518469797!3d-3.725954144204737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1674655646658!5m2!1spt-BR!2sbr" width="360" height="300" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  <div class="sub-card">
-                     <img src="img/loc.png" class="img-card">
-                     <p>Rua Nogueira Acioli,234,<br>Centro,Fortaleza,CE-60110-140<br><a href="https://goo.gl/maps/ZULSj8Yo8ae2jGFB8" class="link-card" target="_blank">VER NO MAPA</a></p>
-                  </div>
-                  <div class="sub-card">
-                     <img src="img/relogio.png" class="img-card">
-                     <p>Domingo:<span> Fechado</span><br>
-                        Segunda a Sexta:<span> 8:00 às 20:00</span><br>
-                        Sabado:<span> 8:00 às 18:00</span>
-                     </p>
-                  </div>
-                  <div class="sub-card">
-                     <img src="img/telefone.png" class="img-card">
-                     <p><span class="numero">(85) 99132-3179</span></p>
-                  </div>
-                  <div class="redes-sociais">
-                     <a href="https://api.whatsapp.com/send?phone=5585988719784&text=Ol%C3%A1%21+estou+na+oficina+Up-Driver+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer noopener"><img src="img/whatsapp.png" class="img-redes"  ></a>
-                     <a href="https://www.instagram.com/matheus_fjxj/" target="_window" rel="noreferrer noopener"><img src="img/instagram.png" class="img-redes"></a>
-                  </div>
-                </div>
-              </div>
-        </div>
-      </div>
-    </div>  -->
 
 
     <!--FOOTER COM COPYRIGHT!!!!!!!!!!! -->
@@ -184,13 +153,13 @@ session_start();
         <h2 class="titulo-footer"><i>Navegue</i></h2>
         <hr id="linha-1">
         <ul type="none" class="lista">
-          <a href="login.php#area-1">
+          <a href="#area-1">
             <li class="item-lista">Login</li>
           </a>
-          <a href="login.php#area-2">
+          <a href="#area-2">
             <li class="item-lista">Habilidades</li>
           </a>
-          <a href="login.php#area-3">
+          <a href="#area-3">
             <li class="item-lista">Quem somos</li>
           </a>
           <a href="login.php#area-4">
@@ -200,6 +169,11 @@ session_start();
             <li class="item-lista">Informações</li>
           </a>
         </ul>
+      </div>
+      <div class="coluna coluna-3" data-anime>
+        <h2 class="titulo-footer"><i>Localização</i></h2>
+        <hr id="linha-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="320" height="300" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="coluna coluna-2" data-anime>
         <h2 class="titulo-footer"><i>Contato</i></h2>
@@ -231,11 +205,6 @@ session_start();
                 <a href="https://api.whatsapp.com/send?phone=5585988719784&text=Ol%C3%A1%21+estou+na+oficina+Up-Driver+e+gostaria+de+mais+informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer noopener"  ><img class="icone-redes" src="img/whatsapp.png"></a>
               </div>
           </div>
-        </div>
-        <div class="coluna coluna-3" data-anime>
-          <h2 class="titulo-footer"><i>Localização</i></h2>
-          <hr id="linha-3">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7962.769899685766!2d-38.515716!3d-3.72596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484543a91385%3A0x2444014a15cde1fa!2sR.%20Nogueira%20Acioli%2C%20234%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060110-140!5e0!3m2!1spt-BR!2sbr!4v1682646534628!5m2!1spt-BR!2sbr" width="320" height="300" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </footer>
       <div class="direitos-autorais">
