@@ -9,7 +9,7 @@
     <title>Cadastro</title>
     <style>
         body{
-            background-image: radial-gradient( #053a76,#031C38); 
+            background: linear-gradient(63.13deg, #022758 50%, #1a68ce 50.01%); 
         }
     </style>
 </head>
@@ -41,12 +41,12 @@ onblur="javascript:(this.placeholder=='Ex: 123.456.789-10'?this.placeholder = ''
                     </div>
                 </div>
       
-                    <button>Cadastrar</button>
+                    <button class="logar">Cadastrar</button>
             </form>
         </div>
   </main>
   <footer>
-    <h3 style="color:rgba(255,255,255,0.50)">Copyright &copy; - Up-Driver - Todos os Direitos Reservados</h3>
+    <h3 style="color:rgba(255,255,255,0.70)">Copyright © 2023 - Up-Driver - Todos os Direitos Reservados</h3>
   </footer> 
 </body>
 </html>
