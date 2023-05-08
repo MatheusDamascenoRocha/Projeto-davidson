@@ -23,15 +23,12 @@ main{
 }
 .caixa__login {
   position: absolute;
-  top: 50%;
-  left: 50%;
   width: 600px;
   height: 450px;
   padding: 40px;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.5);
+  background: #031c38;
   box-sizing: border-box;
-  box-shadow: 0 0px 40px 10px #05326669;
+  box-shadow: 0 0px 50px 10px #0000003b;
   border-radius: 10px;
   display: flex;
   align-items: stretch;
@@ -60,8 +57,8 @@ form{
 .caixa__login .caixa__login-input {
   position: relative;
   width: 100%;
-  
 }
+
 .caixa__login .caixa__login-input input {
   width: 100%;
   padding: 10px 0;
@@ -91,13 +88,6 @@ form{
   color: #80c0f9;
   font-size: 12px;
 }
-
-  .link-cadastrar{
-
-    color: #1eb9e4;
-    text-decoration: none;
-    margin-left: 5px;
-  }
 
 
 @keyframes animacaoBotao1 {
@@ -134,32 +124,26 @@ form{
   }
 }
 
-button {
-    text-align: center;
-  font-size: 1.1rem;
+.logar {
+  font-size: 1.3rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
+  border-radius: 5px;
   line-height: 1;
   background-color: #00000030;
   padding: 1rem;
-  width: 120px;
-  height: 65px;
-  border: 3px solid rgba(0, 0, 0, 0.068);
+  width: 150px;
+  height: 55px;
+  border: 3px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   transition: all 0.18s ease;
-  --color1: #000000;
-  --color2: #05050f;
-  --bs1: -2px -2px 0 2px var(--color1);
-  --bs2: 0 0 0 4px var(--color2);
-  box-shadow: var(--bs1), var(--bs2), var(--bs3);
 }
-
-.button:hover,
-button:hover {
+.logar:hover {
   --color1: #000000;
   --color2: #030206;
   background: rgba(255, 255, 255, 0.05);
 }
+
 
 @keyframes animacaoBotao4 {
   0% {
