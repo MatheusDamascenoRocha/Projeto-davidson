@@ -19,16 +19,80 @@ body {
 }
 main{
   width: 100%;
-  height: 96.94vh;
+  height: 96.74vh;
+  display: flex;
+  flex-direction: column;
+}
+.conteudo{
+  height: 92.94vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.voltar{
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 4.8vh;
+  width: 145px;
+  border-radius: 10px;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1a68ce;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.13);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.voltar > img{
+  height: 28px;
+  margin-right: 10px;
+}
+.voltar:hover{
+  height: 5.2vh;
+  width: 160px;
+  font-size: 25px;
+}
+.escolher{
+  width: 450px;
+  height: 630px;
+  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.301);
+  border-radius: 20px;
+  background-color: #1a68ce;
+  color: #fff;
+}
+.lista{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-lista{
+  margin-top: 15px;
+  text-align: center;
+}
+.item-lista{
+  margin-top: 30px;
+  text-align: center;
+  width: auto;
+}
+.texto-lista{
+  color: #ffffffab;
+  margin-top: 5px;
 }
 .caixa__login {
-  position: absolute;
   width: 600px;
   height: 450px;
   padding: 40px;
   background: #031c38;
   box-sizing: border-box;
-  box-shadow: 0 0px 50px 10px #0000003b;
+  box-shadow: 0 0px 10px 5px #00000027;
   border-radius: 10px;
   display: flex;
   align-items: stretch;
@@ -128,7 +192,7 @@ form{
   font-size: 1.3rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 10px;
   line-height: 1;
   background-color: #00000030;
   padding: 1rem;

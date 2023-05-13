@@ -191,12 +191,14 @@ form{
   font-size: 12px;
 }
 
-  .link-cadastrar{
-
+.link-cadastrar{
     color: #1eb9e4;
     text-decoration: none;
     margin-left: 5px;
-  }
+}
+.link-cadastrar:hover{
+  text-decoration: underline;
+}
 
 
 @keyframes animacaoBotao1 {
@@ -237,7 +239,7 @@ form{
   font-size: 1.3rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 10px;
   line-height: 1;
   background-color: #00000030;
   padding: 1rem;
