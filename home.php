@@ -32,18 +32,7 @@ if ($tempo > $_SESSION['limite']) {
     <link rel="shortcut icon" href="img/engrenagem.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-      <div class="header-logo">
-        <img src="img/logo.png" alt="logo" class="logo">
-        <h1><em>Up-Driver</em></h1>
-      </div>
-      <div class="navbar">
-        <a href="?sair">Sair</a>
-        <a href="home.php">Home</a>
-        <a href="">Compras</a>
-        <a href="">Serviços</a>
-      </div>
-    </header>
+  <?php include'./header.php' ?>
     <main>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, reprehenderit. Saepe iusto qui asperiores porro soluta provident fugiat ullam quia suscipit commodi dolorem facere sint inventore adipisci, pariatur perspiciatis ut?
