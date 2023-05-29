@@ -12,6 +12,7 @@
             background: linear-gradient(75.13deg, #022758 50%, #1a68ce 50.01%); 
         }
     </style>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -48,7 +49,7 @@
                             <label>User</label>
                         </div>
                         <div class="caixa__login-input">
-                            <input type="password" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
+                            <input type="password" minlength="6" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
             onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
                             <label>Senha</label>
                         </div>
@@ -58,7 +59,7 @@
                             <label>Email</label>
                         </div>
                         <div class="caixa__login-input">
-                            <input type="text" name="cpf" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
+                            <input type="text" id="cpf" name="cpf" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
             onblur="javascript:(this.placeholder=='Ex: 123.456.789-10'?this.placeholder = '':null);" required />
                             <label>CPF</label>
                         </div>
@@ -71,5 +72,12 @@
   <footer>
     <h3 style="color:rgba(255,255,255,0.70)">Copyright © 2023 - Up-Driver - Todos os Direitos Reservados</h3>
   </footer> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+<script>
+    $(document).ready(function () { 
+        var $seuCampoCpf = $("#cpf");
+        $seuCampoCpf.mask('000.000.000-00', {reverse: true});
+    });
+</script>
 </body>
 </html>
