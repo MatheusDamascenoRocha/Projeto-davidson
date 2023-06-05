@@ -22,8 +22,10 @@
       $senha=password_hash($_POST['senha'], PASSWORD_DEFAULT);
       $email=$_POST['email'];
       $cpf=$_POST['cpf'];
-
-      $inserir = $mysqli->query("INSERT INTO login VALUES(0,'$usuario','$senha','$email','$cpf')");
+      $carro=$_POST['carro'];
+      $carro_segundo=$_POST['carro2'];
+      $carro_terceiro=$_POST['carro3'];
+      $inserir = $mysqli->query("INSERT INTO login VALUES(0,'$usuario','$senha','$email','$cpf','$carro','$carro_segundo','$carro_terceiro')");
 
       if($inserir){
         echo"<script>ok()</script>";
