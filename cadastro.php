@@ -43,26 +43,42 @@
                 <h2>Cadastro</h2>
                 <form action="recebe-cadastro.php" method="post">
                     <div class="inputs">
+
                         <div class="caixa__login-input">
-                            <input type="text" name="usuario" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: Matheus123':null);"
-            onblur="javascript:(this.placeholder=='Ex: Matheus123'?this.placeholder = '':null);" required />
+                            <input type="text" name="usuario" placeholder="Ex: Matheus123">
                             <label>User</label>
                         </div>
+
                         <div class="caixa__login-input">
-                            <input type="password" minlength="6" name="senha" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 12345':null);"
-            onblur="javascript:(this.placeholder=='Ex: 12345'?this.placeholder = '':null);"required />
+                            <input type="password" minlength="6" name="senha"  placeholder="Ex: 123456">
                             <label>Senha</label>
                         </div>
+
                         <div class="caixa__login-input">
-                            <input type="email" name="email" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: algumacoisa@gmail.com':null);"
-            onblur="javascript:(this.placeholder=='Ex: algumacoisa@gmail.com'?this.placeholder = '':null);" required />
+                            <input type="email" name="email"  placeholder="Ex: matheus@matheus.com">
                             <label>Email</label>
                         </div>
+
                         <div class="caixa__login-input">
-                            <input type="text" id="cpf" name="cpf" onfocus="javascript:(this.placeholder==''?this.placeholder = 'Ex: 123.456.789-10':null);"
-            onblur="javascript:(this.placeholder=='Ex: 123.456.789-10'?this.placeholder = '':null);" required />
+                            <input type="text" id="cpf" name="cpf"  placeholder="Ex: 123.456.789.10">
                             <label>CPF</label>
                         </div>
+
+                        <div class="caixa__login-input">
+                            <input type="text" name="carro"  placeholder="Modelo e marca">
+                            <label>Carro 1</label>
+                        </div>
+
+                        <div class="caixa__login-input">
+                            <input type="text" name="carro2"  placeholder="Modelo e marca">
+                            <label>Carro 2</label>
+                        </div>
+
+                        <div class="caixa__login-input">
+                            <input type="text" name="carro3"  placeholder="Modelo e marca">
+                            <label>Carro 3</label>
+                        </div>
+
                     </div>
                         <button class="logar">Cadastrar</button>
                 </form>
