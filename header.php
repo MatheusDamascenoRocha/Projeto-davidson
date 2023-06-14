@@ -55,10 +55,11 @@
           <h1><em>Up-Driver</em></h1>
         </div>
         <div class="navbar">
-          <a href="#">Serviços</a>
-          <a href="#">Cadastro</a>
-          <a href="#">Excluir</a>
-          <a href="?sair">Sair</a>
+            <a href="#area-1">Login</a>
+            <a href="#area-2">Habilidades</a>
+            <a href="#area-3">Quem somos</a>
+            <a href="#area-4">Marcas</a>
+            <a href="?sair">Sair</a>
         </div>
       </header>
 </body>
