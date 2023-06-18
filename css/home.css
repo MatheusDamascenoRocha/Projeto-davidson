@@ -59,46 +59,23 @@ main{
     justify-content: center;
     align-items: center;
 }
-.caixa__login {
-    position: absolute;
-    width: 750px;
-    height: 550px;
-    padding: 40px;
-    background: #031c38;
-    box-sizing: border-box;
-    box-shadow: 0 0px 40px 10px #000000b4;
-    border-radius: 10px;
+.titulo{
+    color: #80c0f9;
+    margin-bottom: 12px;
+    font-size: 26px;
+}
+.inputs{
     display: flex;
-    align-items: stretch;
-    justify-content: center;
-    flex-direction: column;
-  }
-  form{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .inputs{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 100%;
-  }
-  .caixa__login h2 {
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-  }
-  
-  .caixa__login .caixa__login-input {
+    justify-content: space-around;
+    width: 1300px;
+}
+.caixa__login-input {
     position: relative;
     width: 100%;
-  }
+}
   
-  .caixa__login .caixa__login-input input {
-    width: 100%;
+.caixa__login-input input {
+    width: 85%;
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
@@ -107,8 +84,8 @@ main{
     border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
-  }
-  .caixa__login .caixa__login-input label {
+}
+.caixa__login-input label {
     position: absolute;
     top: 0;
     left: 0;
@@ -117,121 +94,12 @@ main{
     color: #fff;
     pointer-events: none;
     transition: 0.5s;
-  }
+}
   
-  .caixa__login .caixa__login-input input:focus ~ label,
-  .caixa__login .caixa__login-input input:valid ~ label {
+.caixa__login-input input:focus ~ label,
+.caixa__login-input input:valid ~ label {
     top: -20px;
     left: 0;
     color: #80c0f9;
     font-size: 12px;
-  }
-  @keyframes animacaoBotao1 {
-    0% {
-      left: -100%;
-    }
-    50%,
-    100% {
-      left: 100%;
-    }
-  }
-  
-  
-  
-  @keyframes animacaoBotao2 {
-    0% {
-      top: -100%;
-    }
-    50%,
-    100% {
-      top: 100%;
-    }
-  }
-  
-  
-  
-  @keyframes animacaoBotao3 {
-    0% {
-      right: -100%;
-    }
-    50%,
-    100% {
-      right: 100%;
-    }
-  }
-  
-  .logar {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    line-height: 1;
-    background-color: #00000030;
-    padding: 1rem;
-    width: 100px;
-    height: 55px;
-    border: 3px solid rgba(0, 0, 0, 0);
-    cursor: pointer;
-    transition: all 0.18s ease;
-  }
-  .logar:hover {
-    --color1: #000000;
-    --color2: #030206;
-    background: rgba(255, 255, 255, 0.05);
-  }
-  
-  @keyframes animacaoBotao4 {
-    0% {
-      bottom: -100%;
-    }
-    50%,
-    100% {
-      bottom: 100%;
-    }
-  }
-  @media (max-width:606px), (max-height:450px){
-    .caixa__login{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 300px;
-        height: 330px;
-        padding: 40px;
-        transform: translate(-50%, -50%);
-        background: rgba(0, 0, 0, 0.5);
-        box-sizing: border-box;
-        box-shadow: 0 0px 40px 10px #05326669;
-        border-radius: 10px;
-      }
-    .caixa__login h2 {
-        margin: 0 0 30px;
-        padding: 0;
-        color: #fff;
-        text-align: center;
-        font-size: 25px;
-      }
-    .caixa__login .caixa__login-input {
-        position: relative;
-      }
-    .caixa__login .caixa__login-input input {
-        width: 100%;
-        padding: 10px 0;
-        font-size: 16px;
-        color: #fff;
-        margin-bottom: 30px;
-        border: none;
-        border-bottom: 1px solid #fff;
-        outline: none;
-        background: transparent;
-      }
-.caixa__login .caixa__login-input label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: 0.5s;
-    }
 }

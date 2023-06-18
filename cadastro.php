@@ -63,22 +63,6 @@
                             <input type="text" id="cpf" name="cpf"  placeholder="Ex: 123.456.789.10">
                             <label>CPF</label>
                         </div>
-
-                        <div class="caixa__login-input">
-                            <input type="text" name="carro"  placeholder="Modelo e marca">
-                            <label>Carro 1</label>
-                        </div>
-
-                        <div class="caixa__login-input">
-                            <input type="text" name="carro2"  placeholder="Modelo e marca">
-                            <label>Carro 2</label>
-                        </div>
-
-                        <div class="caixa__login-input">
-                            <input type="text" name="carro3"  placeholder="Modelo e marca">
-                            <label>Carro 3</label>
-                        </div>
-
                     </div>
                         <button class="logar">Cadastrar</button>
                 </form>
