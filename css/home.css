@@ -66,7 +66,8 @@ main{
 }
 .inputs{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     width: 1300px;
 }
 .caixa__login-input {
@@ -103,3 +104,37 @@ main{
     color: #80c0f9;
     font-size: 12px;
 }
+.select{
+    margin-right: 58px;
+}
+.select select {
+    background: #031C38;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+    padding: 13px 20px 13px 12px;
+    color: #80c0f9;
+    border-radius: 15px;
+}
+.botao{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao > button{
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #80c0f9;
+    letter-spacing: 1px;
+    background-color: #031C38;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.botao > button:hover{
+    color: #80c0f9;
+    background-color: #162941;
+}
+
